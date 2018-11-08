@@ -1,0 +1,76 @@
+-----  Stop and Wait Network Simulator Version 1.1 -------- 
+
+Enter the number of messages to simulate: Enter  packet loss probability [enter 0.0 for no loss]:Enter packet corruption probability [0.0 for no corruption]:Enter average time between messages from sender's layer5 [ > 0.0]:Enter TRACE:
+EVENT time: 0.935697,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 6.428144,  type: 2, fromlayer3  entity: 1
+
+EVENT time: 8.927274,  type: 2, fromlayer3  entity: 0
+
+EVENT time: 16.077150,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 17.478437,  type: 2, fromlayer3  entity: 1
+
+EVENT time: 22.915127,  type: 2, fromlayer3  entity: 0
+
+EVENT time: 23.220312,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 26.716482,  type: 2, fromlayer3  entity: 1
+
+EVENT time: 29.601519,  type: 2, fromlayer3  entity: 0
+
+EVENT time: 33.328041,  type: 1, fromlayer5  entity: 0
+          TOLAYER3: packet being corrupted
+
+EVENT time: 37.904476,  type: 2, fromlayer3  entity: 1
+
+EVENT time: 41.780785,  type: 2, fromlayer3  entity: 0
+
+EVENT time: 50.578934,  type: 1, fromlayer5  entity: 0
+          TOLAYER3: packet being corrupted
+
+EVENT time: 54.576645,  type: 2, fromlayer3  entity: 1
+
+EVENT time: 60.291145,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 61.295815,  type: 2, fromlayer3  entity: 1
+          TOLAYER3: packet being corrupted
+
+EVENT time: 62.952969,  type: 1, fromlayer5  entity: 0
+          TOLAYER3: packet being lost
+
+EVENT time: 63.911678,  type: 2, fromlayer3  entity: 0
+Warning: attempt to start a timer that is already started
+
+EVENT time: 67.290024,  type: 2, fromlayer3  entity: 0
+Warning: attempt to start a timer that is already started
+
+EVENT time: 70.578934,  type: 0, timerinterrupt   entity: 0
+          TOLAYER3: packet being corrupted
+
+EVENT time: 78.733452,  type: 2, fromlayer3  entity: 1
+          TOLAYER3: packet being corrupted
+
+EVENT time: 80.683609,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 88.368423,  type: 2, fromlayer3  entity: 0
+Warning: attempt to start a timer that is already started
+
+EVENT time: 88.708755,  type: 2, fromlayer3  entity: 1
+          TOLAYER3: packet being corrupted
+
+EVENT time: 89.588303,  type: 1, fromlayer5  entity: 0
+          TOLAYER3: packet being lost
+
+EVENT time: 90.578934,  type: 0, timerinterrupt   entity: 0
+
+EVENT time: 93.447517,  type: 2, fromlayer3  entity: 0
+Warning: attempt to start a timer that is already started
+
+EVENT time: 99.999390,  type: 2, fromlayer3  entity: 1
+
+EVENT time: 104.503311,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 108.643364,  type: 2, fromlayer3  entity: 1
+ Simulator terminated at time 108.643364
+ after sending 10 msgs from layer5
